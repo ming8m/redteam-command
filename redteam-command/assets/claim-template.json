@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "claim_id": "candidate-001",
+  "statement": "待验证的具体输入与安全边界命题",
+  "kind": "sqli",
+  "mode": "current",
+  "disposition": "candidate",
+  "claims_current_exploit": false,
+  "owner": "mechanism-owner",
+  "context_id": "environment-operation-001",
+  "origin": {"hint_level": "none", "independent_discovery": false},
+  "hypothesis": {
+    "constraint": null,
+    "failure_boundary": null,
+    "minimal_observation": null,
+    "negative_control": null,
+    "falsifier": null,
+    "evidence_threshold": null,
+    "refs": []
+  },
+  "contradictions": [],
+  "evidence": [],
+  "checks": {
+    "contract": {"result": "missing", "refs": []},
+    "baseline": {"result": "missing", "refs": []},
+    "mapping": {"result": "missing", "refs": []},
+    "effect": {"result": "missing", "refs": []},
+    "control": {"result": "missing", "refs": []},
+    "sql_semantics": {"result": "missing", "refs": []},
+    "impact": {"result": "missing", "refs": []},
+    "alternatives": {"result": "missing", "refs": []}
+  },
+  "progress": {"no_new_information_rounds": 0, "next_action": "restore_prerequisite", "changed_prerequisite_refs": []},
+  "state_changed": false
+}
